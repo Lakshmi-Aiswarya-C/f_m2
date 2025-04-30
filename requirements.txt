@@ -1,0 +1,9 @@
+pyttsx3
+streamlit
+google-generativeai
+python-dotenv
+Pillow
+gtts
+PyPDF2
+matplotlib
+googletrans==4.0.0-rc1
