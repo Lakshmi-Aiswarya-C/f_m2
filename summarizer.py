@@ -174,9 +174,7 @@ if st.session_state.response_text:
     st.markdown("<h3 style='color:#ffd700;'>Summary of the Lab Report</h3>", unsafe_allow_html=True)
     st.success(st.session_state.response_text)
 
-    # Add pie chart visualization
-    st.markdown("### 📊 Health Indicators Overview")
-    draw_pie_chart()
+    
 
     # Downloadable summary
     st.download_button("📥 Download Summary", st.session_state.response_text, file_name="lab_summary.txt")
